@@ -229,7 +229,7 @@ img {
     background-color:  #1F2937;
     color: white;
     border-radius: 10px;
-    padding: 6%;
+    padding: 15%;
     transition-duration: 0.3s;
 }
 
@@ -308,4 +308,24 @@ img {
     transition-duration: 0.5s;
     padding: 2%;
     color: #051530;
+}
+
+.newton{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    padding: 15px;
+}
+.newton:hover {
+    color: yellow;
+    border-radius: 25px;
+    padding-left: 10%;
+    transition-duration: 0.5s;
+}
+
+.words:hover {
+    transition-duration: 0.3s;
+    color: yellow;
+    padding-left: 10%;
+
 }
