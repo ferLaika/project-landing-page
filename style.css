@@ -2,26 +2,26 @@
 .header {
     background-color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
-
-
 
 .logo{
     display: flex;
-    height: 0px;
     font-weight: 500;
+    height: 0;
+    width: 220px;
     font-size: 24px;
+    justify-content: center;
     color: #F9FAF8;
     text-decoration: none;
 
 }
 
 .logo:hover {
-    background-color: #0d5e59;
+    background-color: #3882F6;
     transition-duration: 0.6s;
-
+    padding-bottom: 4%;
+    padding-right: 2%;
+    border-radius: 10px;
 }
 
 
@@ -59,8 +59,10 @@
 }
 
 .Main-title:hover{
-    color:#0d5e59;
+    color:#3882F6;
     transition-duration: 0.5s;
+    font-size: 55px;
+    font-weight: bolder;
 }
 
 
@@ -80,6 +82,17 @@
     justify-content: center;
 
 }
+
+.icons {
+    border-radius: 10px;
+}
+
+.icons:hover{
+    transition-duration: 0.4s;
+    color:#3882F6;
+   
+}
+
 
 .sign-up:hover{
     opacity: 0.8;
@@ -112,8 +125,6 @@
     padding: 5%;
 }
 
-
-
 .image-right {
     flex: 1;
     text-align: right;
@@ -121,13 +132,12 @@
 }
 
 .image-right:hover {
-   opacity: 0.8;
-   padding: 5%;
+   padding: 8%;
    background-color: #051530;
    border-radius: 35px;
+   filter: sepia();
+
 }
-
-
 
 
 
@@ -142,52 +152,58 @@
     justify-content: center;
     font-size: 36px;
     font-weight: 900px;
+    margin: 25px;
 }
 
-.icons {
-    border-radius: 10px;
-}
-
-.icons:hover{
-    background-color: #0d5e59;
+.info:hover{
+    color:whitesmoke;
+    background-color: #1F2937;
+    padding: 4%;
     transition-duration: 0.5s;
+    border-radius: 10px;
+    
 }
+
 
 .pictures {
     display: flex;
     flex-direction: row;
-    flex: 0.1;
+    flex: 1;
     justify-content: center;
     justify-content: space-evenly;
     align-items: stretch;
+    filter: blur(4px);
+}
+
+.pictures:hover {
+    background-color: #1F2937;
+    transition-duration: 0.5s;
+    padding: 15%;
+    filter: none;
+    border-radius: 10px;
+    color: white;
 }
 
 .pics {
     border: 5px solid #3882F6;
 }
 
+.pics:hover{
+    filter: sepia();
+    border-color: #E5E7EB;
+    width: 210px;
+    height: auto;
+    transition-duration: 0.2s;  
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+}
+
+
 img {
     border-radius: 15px;
-}
-
-.caption1{
-    display: inline;
-    padding-left: 230px;
-}
-
-.caption2 {
-    display: inline;
-    padding-left: 250px;
-}
-
-.caption3 {
-    display: inline;
-    padding-left: 290px;
-}
-
-.caption4 {
-    display: inline;
-    padding-left: 240px;
 }
 
 .box4 {
@@ -201,5 +217,12 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.quote:hover{
+    background-color:  #1F2937;
+    color: white;
+    border-radius: 10px;
+    padding: 6%;
+    transition-duration: 0.3s;
+}
 
 
