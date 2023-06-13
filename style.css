@@ -81,7 +81,7 @@
     padding-bottom: 25px;
     border-radius: 35px;
     justify-content: center;
-    flex-shrink: 1;
+    flex-shrink: shift;
 
 }
 
